@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/index/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <form action="" method="get" id="form">
+
+        regione
+        <select id="inputRegione" name="region">
+            <option value="italia">Italia</option>
+            <option value="abruzzo">Abruzzo</option>
+            <option value="basilicata">Basilicata</option>
+            <option value="calabria">Calabria</option>
+            <option value="campania">Campania</option>
+            <option value="emilia">Emilia Romagna</option>
+            <option value="friuli">Friuli Venezia Giulia</option>
+            <option value="lazio">Lazio</option>
+            <option value="liguria">Liguria</option>
+            <option value="lombardia">Lombardia</option>
+            <option value="marche">Marche</option>
+            <option value="molise">Molise</option>
+            <option value="piemonte">Piemonte</option>
+            <option value="puglia">Puglia</option>
+            <option value="sardegna">Sardegna</option>
+            <option value="sicilia">Sicilia</option>
+            <option value="toscana">Toscana</option>
+            <option value="trentino">Trentino Alto Adige</option>
+            <option value="umbria">Umbria</option>
+            <option value="aosta">Valle d'Aosta</option>
+            <option value="veneto">Veneto</option>
+        </select>
+        nome
+        <input type="text" placeholder="modello" name="searchKey" id="inputText">
+        <div id="radioArea">
+            Modello
+            <input type="radio" name="type" value="model">
+            Marca
+            <input type="radio" name="type" value="brand">
+        </div>
+
+        <input type="submit" value="Cerca">
+    </form>
+
+    <!--
+            <div class="container">
+                <canvas id="myChart"></canvas>
+            </div>
+        -->
+
+    <div class="container">
+        <object id="mySVG" type="image/svg+xml" data=""></object>
+    </div>
+
+    <script src="/static/index/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+body {
+    background-color: #2d4c64;
+}
+
+form {
+    position: absolute;
+    color: #6fa7d2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    width: 20vw;
+}
+
+#inputText, select{
+    border: 2px solid #6fa7d2;
+    border-radius: 5px;
+    width: 15vw;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 90vh;
+}
